@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+  int ar[10],l;
+  cout<<"Enter the no. of elements : ";
+  cin>>l;
+  cout<<" Enter Array elements (0 and 1 only) : "<<endl;
+  for(int i=0;i<l;i++){
+    cin>>ar[i];  
+  }
+  int tem;
+  for(int i=0;i<l-1;i++){
+    for(int j=0;j<l-i-1;j++){
+      if(ar[j]>ar[j+1]){
+         tem=ar[j];
+         ar[j]=ar[j+1];
+         ar[j+1]=tem;
+      }
+    }
+  }
+  cout<<"Array after segregation of all '0' and '1' : "<<endl;
+  for(int i=0;i<l;i++){
+    cout<<ar[i]<<" "; 
+  }
+  return 0;}
