@@ -185,7 +185,7 @@ main {
 }
 
 #box {
-    background-color: #111111;
+    background-color: black;
     color: #f9f9f9;
     border-radius: 12px;
     border: 10px double #f9f9f9;
