@@ -27,7 +27,6 @@
 
 body {
     background-color: #f9f9f9;
-    color:#ffffff;
 }
 
 #head img {
@@ -253,7 +252,7 @@ footer {
 #c4:hover {
     height: 32px;
 }
-inline{
+iframe{
     background-color:black;
     color:white;
 }
