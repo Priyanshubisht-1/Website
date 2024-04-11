@@ -186,10 +186,10 @@ main {
 }
 
 #box {
-    background-color: #f9f9f9;
-    color: #ffffff;
+    background-color: #111111;
+    color: #f9f9f9;
     border-radius: 12px;
-    border: 10px double #111111;
+    border: 10px double #f9f9f9;
     font-size: 1rem;
     font-family: Poppins;
     margin-inline: 1%;
@@ -252,4 +252,8 @@ footer {
 
 #c4:hover {
     height: 32px;
+}
+inline{
+    background-color:black;
+    color:white;
 }
